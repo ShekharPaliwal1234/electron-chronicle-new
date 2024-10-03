@@ -1,0 +1,21 @@
+{
+  "name": "electron-chronicle",
+  "version": "1.0.0",
+  "description": "electron chronicle todo app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "app:dist": "electron-builder"
+  },
+  "author": "Shekhar Paliwal",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^32.1.2",
+    "electron-builder": "^25.0.5",
+    "nodemon": "^3.1.6"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  }
+}
